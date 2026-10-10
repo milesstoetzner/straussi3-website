@@ -7,6 +7,10 @@ const WORE_MAIL = 'wore.str3@gmail.com'
 const en: Content = {
   siteName: 'Straußi 3',
   siteSub: 'Dormitory',
+  apply: {
+    label: 'Apply here!',
+    url: 'https://www.studierendenwerk-stuttgart.de/en/accommodation/online-application',
+  },
   nav: {
     home: 'Dormitory',
     hausmeister: 'Janitor',
@@ -36,8 +40,6 @@ const en: Content = {
   },
   home: {
     title: 'Straußi 3',
-    apply: 'Apply here!',
-    applyUrl: 'https://www.studierendenwerk-stuttgart.de/en/accommodation/online-application',
     findUs: 'You can find the Straußi 3 here',
     address: 'Adress',
     addressLines: ['Campus Vaihingen – Stuttgart', 'Straußäcker III', 'Allmandring 3c-i', '70569 Stuttgart'],
@@ -223,8 +225,6 @@ const en: Content = {
   },
   wohnen: {
     title: 'Living',
-    apply: 'Apply here!',
-    applyUrl: 'https://www.studierendenwerk-stuttgart.de/en/accommodation/online-application',
     residents: 'Residents',
     residentsNote: (
       <>

@@ -15,6 +15,10 @@ export interface Tutor {
 export interface Content {
   siteName: string
   siteSub: string
+  apply: {
+    label: string
+    url: string
+  }
   nav: {
     home: string
     hausmeister: string
@@ -44,8 +48,6 @@ export interface Content {
   }
   home: {
     title: string
-    apply: string
-    applyUrl: string
     findUs: string
     address: string
     addressLines: string[]
@@ -91,8 +93,6 @@ export interface Content {
   }
   wohnen: {
     title: string
-    apply: string
-    applyUrl: string
     residents: string
     residentsNote: ReactNode
     residentsText: ReactNode

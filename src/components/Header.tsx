@@ -31,7 +31,11 @@ export default function Header() {
 
         <div className="header__right">
           <SiteSearch />
-          <button
+          <a className="btn header__apply" href={t.apply.url} target="_blank" rel="noreferrer">
+            {t.apply.label}
+          </a>
+        </div>
+        <button
           type="button"
           className="nav-link header__toggle"
           aria-expanded={open}
@@ -43,7 +47,6 @@ export default function Header() {
             <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           </svg>
         </button>
-        </div>
       </div>
 
       <nav id="site-nav" className={`nav${open ? ' nav--open' : ''}`}>

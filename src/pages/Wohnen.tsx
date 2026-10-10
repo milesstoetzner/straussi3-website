@@ -12,12 +12,6 @@ export default function Wohnen() {
       <Hero title={w.title} image={winter} />
 
       <div className="container">
-        <div className="actions">
-          <a className="btn btn--block" href={w.applyUrl} target="_blank" rel="noreferrer">
-            {w.apply}
-          </a>
-        </div>
-
         <Section title={w.residents}>
           <p className="notice">{w.residentsNote}</p>
           <p>{w.residentsText}</p>

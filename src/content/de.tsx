@@ -7,6 +7,10 @@ const WORE_MAIL = 'wore.str3@gmail.com'
 const de: Content = {
   siteName: 'Straußi 3',
   siteSub: 'Wohnheim',
+  apply: {
+    label: 'Hier bewerben!',
+    url: 'https://www.studierendenwerk-stuttgart.de/wohnen/online-bewerbung',
+  },
   nav: {
     home: 'Wohnheim',
     hausmeister: 'Hausmeister',
@@ -36,8 +40,6 @@ const de: Content = {
   },
   home: {
     title: 'Das Straußi 3',
-    apply: 'Hier bewerben!',
-    applyUrl: 'https://www.studierendenwerk-stuttgart.de/wohnen/online-bewerbung',
     findUs: 'Hier findest du das Straußi 3',
     address: 'Adresse',
     addressLines: ['Campus Vaihingen – Stuttgart', 'Straußäcker III', 'Allmandring 3c-i', '70569 Stuttgart'],
@@ -225,8 +227,6 @@ const de: Content = {
   },
   wohnen: {
     title: 'Wohnen',
-    apply: 'Hier bewerben!',
-    applyUrl: 'https://www.studierendenwerk-stuttgart.de/wohnen/online-bewerbung',
     residents: 'Bewohner',
     residentsNote: (
       <>

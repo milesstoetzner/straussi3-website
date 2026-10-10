@@ -17,12 +17,6 @@ export default function Home() {
       <Hero title={h.title} image={autumn} />
 
       <div className="container">
-        <div className="actions">
-          <a className="btn btn--block" href={h.applyUrl} target="_blank" rel="noreferrer">
-            {h.apply}
-          </a>
-        </div>
-
         <Section title={h.address}>
           <address>
             {h.addressLines.map((l) => (
