@@ -16,7 +16,7 @@ Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Des
 
 Diese Website ist eine rein statische Website ohne Benutzerkonten, Kontaktformulare, Cookies oder Reichweitenmessung. Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen, etwa wenn Sie uns eine E-Mail schreiben. Andere Daten werden automatisch beim Besuch der Website durch den Hosting-Anbieter erfasst. Das sind vor allem technische Daten (z. B. IP-Adresse, Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
 
-Einige Inhalte Dritter (Google Maps, Google Tabellen, Instagram) werden erst geladen, nachdem Sie dies durch einen Klick auf die jeweilige Schaltfläche erlaubt haben. Erst dann werden Daten an den jeweiligen Anbieter übertragen.
+Einige Inhalte Dritter (Google Maps, Google Tabellen) werden erst geladen, nachdem Sie dies durch einen Klick auf die jeweilige Schaltfläche erlaubt haben. Erst dann werden Daten an den jeweiligen Anbieter übertragen.
 
 #### Wofür nutzen wir Ihre Daten?
 
@@ -72,13 +72,13 @@ Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre per
 
 ### Hinweis zur Datenweitergabe in die USA und sonstige Drittstaaten
 
-Wir verwenden Dienste von Unternehmen mit Sitz in den USA (GitHub, Google, Meta). Wenn diese Dienste aktiv sind, können Ihre personenbezogenen Daten in die USA übertragen und dort verarbeitet werden. Die genannten Anbieter sind nach dem EU-US Data Privacy Framework (DPF) zertifiziert. Das DPF ist ein Abkommen zwischen der Europäischen Union und den USA, das die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Ergänzend werden die Standardvertragsklauseln der EU-Kommission verwendet. Wir weisen dennoch darauf hin, dass US-Behörden unter bestimmten Voraussetzungen auf Daten auf US-Servern zugreifen können. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.
+Wir verwenden Dienste von Unternehmen mit Sitz in den USA (GitHub, Google). Wenn diese Dienste aktiv sind, können Ihre personenbezogenen Daten in die USA übertragen und dort verarbeitet werden. Die genannten Anbieter sind nach dem EU-US Data Privacy Framework (DPF) zertifiziert. Das DPF ist ein Abkommen zwischen der Europäischen Union und den USA, das die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Ergänzend werden die Standardvertragsklauseln der EU-Kommission verwendet. Wir weisen dennoch darauf hin, dass US-Behörden unter bestimmten Voraussetzungen auf Daten auf US-Servern zugreifen können. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.
 
 ### Widerruf Ihrer Einwilligung zur Datenverarbeitung
 
 Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
 
-Ihre Einwilligung zum Laden von Inhalten Dritter (Google Maps, Google Tabellen, Instagram) wird im lokalen Speicher Ihres Browsers vermerkt. Sie können sie widerrufen, indem Sie die Website-Daten für diese Seite in Ihrem Browser löschen; danach werden die Inhalte erst nach einer erneuten Einwilligung geladen.
+Ihre Einwilligung zum Laden von Inhalten Dritter (Google Maps, Google Tabellen) wird im lokalen Speicher Ihres Browsers vermerkt. Sie können sie widerrufen, indem Sie die Website-Daten für diese Seite in Ihrem Browser löschen; danach werden die Inhalte erst nach einer erneuten Einwilligung geladen.
 
 ### Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)
 
@@ -149,15 +149,7 @@ Beim Laden einer Tabelle wird eine Verbindung zu den Servern von Google aufgebau
 
 ### Instagram
 
-Auf der Startseite können Beiträge unseres Instagram-Profils eingebettet werden. Anbieter ist die Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland. Die erfassten Daten werden nach Aussage von Meta auch in die USA und in andere Drittländer übertragen.
-
-Beim Laden der Beiträge wird eine direkte Verbindung zwischen Ihrem Browser und den Servern von Instagram hergestellt. Instagram erhält dadurch die Information, dass Sie mit Ihrer IP-Adresse diese Website besucht haben. Wenn Sie dabei in Ihrem Instagram-Account eingeloggt sind, kann Instagram den Besuch dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten.
-
-Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website erfasst und an Meta weitergeleitet werden, sind wir und die Meta Platforms Ireland Limited gemeinsam für diese Datenverarbeitung verantwortlich (Art. 26 DSGVO). Die gemeinsame Verantwortlichkeit beschränkt sich dabei ausschließlich auf die Erfassung der Daten und deren Weitergabe an Meta. Die nach der Weiterleitung erfolgende Verarbeitung durch Meta ist nicht Teil der gemeinsamen Verantwortung. Die uns gemeinsam obliegenden Verpflichtungen wurden in einer Vereinbarung über gemeinsame Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie unter: https://www.facebook.com/legal/controller_addendum. Laut dieser Vereinbarung sind wir für die Erteilung der Datenschutzinformationen beim Einsatz des Tools und für die datenschutzrechtlich sichere Implementierung des Tools auf unserer Website verantwortlich. Für die Datensicherheit der Meta-Produkte ist Meta verantwortlich. Betroffenenrechte (z. B. Auskunftsersuchen) hinsichtlich der bei Meta verarbeiteten Daten können Sie direkt bei Meta geltend machen. Wenn Sie die Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese an Meta weiterzuleiten.
-
-Meta ist nach dem EU-US Data Privacy Framework zertifiziert; die Datenübertragung in die USA wird zudem auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum und https://help.instagram.com/519522125107875. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: https://privacycenter.instagram.com/policy/
-
-Der Link zu unserem Instagram-Profil in der Navigation und im Fußbereich ist ein gewöhnlicher Link. Beim bloßen Besuch dieser Website werden dadurch keine Daten an Instagram übertragen.
+Der Link zu unserem Instagram-Profil in der Navigation und im Fußbereich ist ein gewöhnlicher Link. Beim bloßen Besuch dieser Website werden keine Daten an Instagram übertragen; erst wenn Sie den Link anklicken, verlassen Sie diese Website und es gilt die Datenschutzerklärung von Instagram: https://privacycenter.instagram.com/policy/
 
 ## 6. Links zu anderen Websites
 

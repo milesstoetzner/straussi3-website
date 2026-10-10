@@ -19,7 +19,7 @@ function remembered(key: string): boolean {
   }
 }
 
-/** Third-party embed (Google Maps, Google Sheets, Instagram) that only loads after the visitor agrees. */
+/** Third-party embed (Google Maps, Google Sheets) that only loads after the visitor agrees. */
 export default function ConsentEmbed({ storageKey, note, button, className = '', children }: ConsentEmbedProps) {
   const { t } = useLanguage()
   const [allowed, setAllowed] = useState(() => remembered(storageKey))

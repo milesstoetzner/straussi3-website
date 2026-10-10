@@ -30,8 +30,6 @@ const de: Content = {
     mapsButton: 'Karte laden',
     sheetsNote: 'Die Liste wird von Google Tabellen geladen. Dabei werden Daten (z. B. deine IP-Adresse) an Google übertragen.',
     sheetsButton: 'Liste laden',
-    instagramNote: 'Die Beiträge werden von Instagram geladen. Dabei werden Daten (z. B. deine IP-Adresse) an Meta übertragen.',
-    instagramButton: 'Instagram-Beiträge laden',
     privacyLink: 'Datenschutzerklärung',
   },
   search: {
@@ -77,8 +75,6 @@ const de: Content = {
       'Fahrradräume',
       'Fahrradstellplätze',
     ],
-    instagram: 'Instagram',
-    instagramProfile: 'Straußi 3 auf Instagram',
   },
   hausmeister: {
     title: 'Hausmeister',

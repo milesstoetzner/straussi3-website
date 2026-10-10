@@ -1,6 +1,5 @@
 import autumn from '../assets/straussi-autumn.jpg'
 import Hero from '../components/Hero'
-import InstagramFeed from '../components/InstagramFeed'
 import MapEmbed from '../components/MapEmbed'
 import Section from '../components/Section'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -55,10 +54,6 @@ export default function Home() {
               <li key={i}>{i}</li>
             ))}
           </ul>
-        </Section>
-
-        <Section title={h.instagram}>
-          <InstagramFeed />
         </Section>
       </div>
     </>

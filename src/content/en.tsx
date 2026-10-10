@@ -30,8 +30,6 @@ const en: Content = {
     mapsButton: 'Load map',
     sheetsNote: 'The list is loaded from Google Sheets. This transfers data (e.g. your IP address) to Google.',
     sheetsButton: 'Load list',
-    instagramNote: 'The posts are loaded from Instagram. This transfers data (e.g. your IP address) to Meta.',
-    instagramButton: 'Load Instagram posts',
     privacyLink: 'Privacy policy',
   },
   search: {
@@ -60,7 +58,7 @@ const en: Content = {
     internetText: (
       <>
         Each room has a LAN connection, through which the student association Selfnet e.V. operates the internet. For
-        7€ a month you can become a{' '}
+        9,50€ a month you can become a{' '}
         <a href="https://www.selfnet.de/" target="_blank" rel="noreferrer">
           passive member
         </a>{' '}
@@ -77,8 +75,6 @@ const en: Content = {
       'bicycle rooms',
       'bicycle parking spaces',
     ],
-    instagram: 'Instagram',
-    instagramProfile: 'Straußi 3 on Instagram',
   },
   hausmeister: {
     title: 'Janitor',

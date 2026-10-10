@@ -24,9 +24,8 @@ npm run lint
 - `src/i18n/LanguageContext.tsx` – language state, persisted in `localStorage`, defaults to the browser language
 - `src/pages/` – one component per page, `src/components/` – header, footer, hero, embeds
 - `src/assets/` – photos from the original site and the logo, redrawn as SVG (`logo.svg`, also used as favicon)
-- `src/content/instagram.ts` – Instagram posts shown on the home page (shortcodes from post URLs)
 - `src/search/` – client-side search over all page texts; results jump to the section's heading
-- `src/components/ConsentEmbed.tsx` – consent gate for third-party embeds (Google Maps, Google Sheets, Instagram)
+- `src/components/ConsentEmbed.tsx` – consent gate for third-party embeds (Google Maps, Google Sheets)
 
 ## Routes
 

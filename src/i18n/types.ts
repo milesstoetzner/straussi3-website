@@ -38,8 +38,6 @@ export interface Content {
     mapsButton: string
     sheetsNote: string
     sheetsButton: string
-    instagramNote: string
-    instagramButton: string
     privacyLink: string
   }
   search: {
@@ -61,8 +59,6 @@ export interface Content {
     internetText: ReactNode
     equipment: string
     equipmentItems: string[]
-    instagram: string
-    instagramProfile: string
   }
   hausmeister: {
     title: string
