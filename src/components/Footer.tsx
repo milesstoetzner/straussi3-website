@@ -49,6 +49,11 @@ export default function Footer() {
             <li>
               <Link to="/datenschutz">{t.footer.datenschutz}</Link>
             </li>
+            <li>
+              <a href="https://github.com/milesstoetzner/straussi3-website" target="_blank" rel="noreferrer">
+                {t.footer.sourceCode}
+              </a>
+            </li>
           </ul>
         </div>
       </div>

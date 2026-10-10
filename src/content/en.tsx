@@ -17,6 +17,7 @@ const en: Content = {
   footer: {
     about: 'About Us',
     subletPage: 'Subletting page',
+    sourceCode: 'Source code',
     impressum: 'Impressum',
     datenschutz: 'Datenschutzerklärung',
   },
