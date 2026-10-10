@@ -20,7 +20,7 @@ const en: Content = {
   },
   footer: {
     about: 'About Us',
-    subletPage: 'Subletting page',
+    subletPage: 'Subtenancy page',
     sourceCode: 'Source code',
     impressum: 'Impressum',
     datenschutz: 'Datenschutzerklärung',
@@ -142,9 +142,9 @@ const en: Content = {
             <p>
               The sublet tutors are responsible for the sublease in Straußäcker 3. We will conclude sublease contracts
               with you and help you to find a main tenant or a subtenant. If you want to sublet your room or if you are
-              looking for a room for subletting, please register on our{' '}
+              looking for a room for subtenancy, please register on our{' '}
               <a href={SUBLET_URL} target="_blank" rel="noreferrer">
-                subletting page
+                subtenancy page
               </a>
               . There you will find all important information about the process and the general conditions.
             </p>
@@ -164,7 +164,7 @@ const en: Content = {
             <p>
               The main task of the IT tutor is to take care of our two websites, the <Link to="/">homepage</Link> and the{' '}
               <a href={SUBLET_URL} target="_blank" rel="noreferrer">
-                sublease page
+                subtenancy page
               </a>
               , and to make sure that everything runs smoothly and that the websites are up to date. In addition, IT is
               responsible for communicating with Selfnet.
@@ -172,7 +172,7 @@ const en: Content = {
             <p>
               Forgot your password and username from the{' '}
               <a href={SUBLET_URL} target="_blank" rel="noreferrer">
-                sublease site
+                subtenancy page
               </a>
               ?
               <br />
@@ -270,7 +270,7 @@ const en: Content = {
     sublet: 'Sublet',
     subletText: (
       <>
-        If you are only looking for a temporary room, please visit our subletting page{' '}
+        If you are only looking for a temporary room, please visit our subtenancy page{' '}
         <a href={SUBLET_URL} target="_blank" rel="noreferrer">
           here
         </a>{' '}
