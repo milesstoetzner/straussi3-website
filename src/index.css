@@ -1,0 +1,688 @@
+/*
+ * Design shared with the subtenancy site (straussi3-subtenancy, tenants/static_src/app.css):
+ * white page, slate text, indigo links, square flat black buttons, the six logo colours as a header
+ * stripe, and plain titled sections separated by space instead of boxes. Keep the two in sync.
+ */
+:root {
+  --brand-1: #ed7d31;
+  --brand-2: #5b9bd5;
+  --brand-3: #70ad47;
+  --brand-4: #ffc000;
+  --brand-5: #7030a0;
+  --brand-6: #f0282d;
+
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-500: #64748b;
+  --slate-700: #334155;
+  --slate-900: #0f172a;
+  --indigo-700: #4338ca;
+  --indigo-900: #312e81;
+
+  --stripe: linear-gradient(
+    90deg,
+    var(--brand-1) 0 16.66%,
+    var(--brand-2) 16.66% 33.33%,
+    var(--brand-3) 33.33% 50%,
+    var(--brand-4) 50% 66.66%,
+    var(--brand-5) 66.66% 83.33%,
+    var(--brand-6) 83.33% 100%
+  );
+
+  /* type scale as on the subtenancy site: sm 12, base 14, lg 16, xl 18, 2xl 22 (root stays 16px for spacing) */
+  --text-sm: 0.75rem;
+  --text-base: 0.875rem;
+  --text-lg: 1rem;
+  --text-xl: 1.125rem;
+  --text-2xl: 1.375rem;
+
+  --content: 48rem;
+  --gutter: 1rem;
+
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  color: var(--slate-900);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: var(--text-base);
+  line-height: 1.25rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--indigo-700);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--indigo-900);
+}
+
+/* Type: section title (card-title), sub-heading (h6), text-block */
+
+h1,
+h2 {
+  font-size: var(--text-2xl);
+  line-height: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: var(--slate-900);
+  margin: 0 0 1rem;
+}
+
+h3,
+h4,
+h6 {
+  font-size: var(--text-base);
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: var(--slate-900);
+  margin: 1rem 0 0.25rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  color: var(--slate-700);
+  line-height: 1.625;
+}
+
+ul,
+ol {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  color: var(--slate-700);
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+address {
+  font-style: normal;
+  color: var(--slate-700);
+  margin-bottom: 1rem;
+}
+
+address span {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--content);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 8px;
+  background: var(--slate-900);
+  color: #fff;
+  padding: 8px 12px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 8px;
+}
+
+/* Brand stripe (one equal segment per logo colour) ------------------- */
+
+.brand-stripe {
+  display: flex;
+  height: 4px;
+  width: 100%;
+}
+
+.brand-stripe span {
+  flex: 1;
+}
+
+/* Header ------------------------------------------------------------- */
+
+.header {
+  background: #fff;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 0.75rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--slate-900);
+  line-height: 1.2;
+}
+
+.brand:hover {
+  color: var(--slate-900);
+}
+
+.brand img {
+  width: 36px;
+  height: 36px;
+}
+
+.brand__name {
+  display: block;
+  font-size: var(--text-base);
+  font-weight: 600;
+}
+
+.brand__sub {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--slate-500);
+}
+
+.nav {
+  border-block: 1px solid var(--slate-200);
+}
+
+.nav__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-block: 0.25rem;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__list li + li {
+  margin-top: 0;
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.625rem;
+  font-size: var(--text-base);
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--slate-700);
+  white-space: nowrap;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background: var(--slate-100);
+  color: var(--slate-900);
+}
+
+.nav-link.active,
+.nav-link.active:hover {
+  background: var(--slate-900);
+  color: #fff;
+}
+
+.nav-link--icon {
+  margin-left: auto;
+}
+
+.lang {
+  position: relative;
+}
+
+.lang__summary {
+  list-style: none;
+}
+
+.lang__summary::-webkit-details-marker {
+  display: none;
+}
+
+.lang__menu {
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  margin-top: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 10rem;
+  border: 1px solid var(--slate-300);
+  background: #fff;
+  padding: 0.25rem;
+}
+
+.lang__option {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font: inherit;
+  font-size: var(--text-base);
+  color: var(--slate-900);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.lang__option:hover {
+  background: var(--slate-100);
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header__toggle {
+  display: none;
+}
+
+/* Search (top right, as on the subtenancy site) */
+
+.search {
+  position: relative;
+}
+
+.search__input {
+  width: 11rem;
+  max-width: 40vw;
+  border: 1px solid var(--slate-300);
+  background: #fff;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: var(--text-base);
+  line-height: 1.25rem;
+  color: var(--slate-900);
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search__input:focus {
+  outline: none;
+  border-color: var(--indigo-700);
+}
+
+.search-panel {
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  margin-top: 0.25rem;
+  width: 24rem;
+  max-width: 90vw;
+  max-height: 24rem;
+  overflow: auto;
+  border: 1px solid var(--slate-300);
+  background: #fff;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.search-panel__hit {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  color: var(--slate-900);
+  cursor: pointer;
+}
+
+.search-panel__hit:hover {
+  background: var(--slate-100);
+}
+
+.search-panel__title {
+  display: block;
+  font-weight: 600;
+}
+
+.search-panel__snippet {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--slate-500);
+}
+
+.search-panel__empty {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  color: var(--slate-500);
+}
+
+@media (max-width: 767px) {
+  .header__toggle {
+    display: inline-flex;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav--open {
+    display: block;
+  }
+
+  .nav__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    display: flex;
+  }
+
+  .nav-link--icon {
+    margin-left: 0;
+  }
+
+  .lang__menu {
+    right: auto;
+    left: 0;
+  }
+}
+
+/* Hero --------------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  isolation: isolate;
+}
+
+.hero {
+  min-height: 260px;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.5);
+  z-index: -1;
+}
+
+.hero__title {
+  font-size: clamp(2.25rem, 1.5rem + 3.5vw, 3.75rem);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+/* Actions under the hero: the apply button */
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.actions + .section {
+  margin-top: 2.5rem;
+}
+
+/* Buttons (square, flat, one colour for actions) --------------------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  font-size: var(--text-base);
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: inherit;
+  background: var(--slate-900);
+  color: #fff;
+  border: 1px solid var(--slate-900);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn:hover {
+  background: var(--slate-700);
+  border-color: var(--slate-700);
+  color: #fff;
+}
+
+.btn--block {
+  display: flex;
+  width: 100%;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--indigo-700);
+  outline-offset: 2px;
+}
+
+/* Sections: a titled block separated by space, no box ---------------- */
+
+.section {
+  margin-top: 2.5rem;
+}
+
+.section:first-child {
+  margin-top: 1.5rem;
+}
+
+.section > :last-child {
+  margin-bottom: 0;
+}
+
+.notice {
+  font-weight: 500;
+  color: var(--slate-900);
+}
+
+.tutor + .tutor {
+  margin-top: 1rem;
+}
+
+/* Embeds and images -------------------------------------------------- */
+
+.map {
+  border: 1px solid var(--slate-300);
+  aspect-ratio: 16 / 9;
+  background: var(--slate-50);
+  margin-bottom: 1rem;
+}
+
+.consent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  background: var(--slate-50);
+}
+
+.consent p {
+  margin: 0;
+}
+
+.consent__privacy {
+  font-size: var(--text-sm);
+}
+
+.map__consent {
+  height: 100%;
+}
+
+.sheet__consent {
+  min-height: 12rem;
+}
+
+.instagram {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.instagram__post {
+  width: 100%;
+  height: 480px;
+  border: 1px solid var(--slate-300);
+  background: #fff;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.figure {
+  margin-inline: auto;
+  border: 1px solid var(--slate-300);
+  background: #fff;
+}
+
+.figure--photo {
+  max-height: 520px;
+  width: auto;
+  border: 0;
+}
+
+.sheet {
+  border: 1px solid var(--slate-300);
+  background: #fff;
+}
+
+.sheet__frame {
+  width: 100%;
+  height: 520px;
+  border: 0;
+  display: block;
+}
+
+.sheet__link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--slate-300);
+  font-weight: 500;
+  color: var(--slate-900);
+}
+
+.sheet__link:hover {
+  background: var(--slate-100);
+  color: var(--slate-900);
+}
+
+/* Legal prose -------------------------------------------------------- */
+
+.prose h2 {
+  margin-top: 2.5rem;
+}
+
+.prose a {
+  word-break: break-word;
+}
+
+/* Footer (as on the subtenancy site) --------------------------------- */
+
+.footer {
+  margin-top: 3rem;
+  border-top: 1px solid var(--slate-200);
+  color: var(--slate-500);
+}
+
+.footer__grid {
+  display: grid;
+  gap: 2rem;
+  padding-block: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .footer__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer h6 {
+  margin-top: 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--slate-500);
+}
+
+.footer a {
+  color: var(--slate-500);
+}
+
+.footer a:hover {
+  color: var(--slate-900);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
