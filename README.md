@@ -1,8 +1,11 @@
-# Straußi 3 website
+# Straussi3 Website
 
-React rewrite of [straussi3.de](https://www.straussi3.de/), the website of the Straußäcker III student
-dormitory in Stuttgart. Texts and pictures are taken over from the original Google Sites page; the site is
-available in German and English via the language switch in the header.
+Website of the Straussi3, the student dormitory Straußäcker III in Stuttgart, in German and English.
+
+- Link: https://straussi3.de
+- Link (alternative): https://milesstoetzner.github.io/straussi3-website
+- Repo: https://github.com/milesstoetzner/straussi3-website
+- Subtenancy: https://untermiete.straussi3.de
 
 ## Development
 
