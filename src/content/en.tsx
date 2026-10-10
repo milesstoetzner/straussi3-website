@@ -38,7 +38,6 @@ const en: Content = {
   },
   home: {
     title: 'Straußi 3',
-    findUs: 'You Can Find the Straußi 3 Here',
     address: 'Address',
     addressLines: ['Campus Vaihingen – Stuttgart', 'Straußäcker III', 'Allmandring 3c-i', '70569 Stuttgart'],
     about: 'Overview',

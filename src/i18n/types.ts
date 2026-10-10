@@ -46,7 +46,6 @@ export interface Content {
   }
   home: {
     title: string
-    findUs: string
     address: string
     addressLines: string[]
     about: string

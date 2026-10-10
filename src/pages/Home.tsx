@@ -22,10 +22,7 @@ export default function Home() {
               <span key={l}>{l}</span>
             ))}
           </address>
-        </Section>
-
-        <Section title={h.findUs}>
-          <MapEmbed src={MAP_SRC} title={h.findUs} />
+          <MapEmbed src={MAP_SRC} title={h.address} />
         </Section>
 
         <Section title={h.about}>
