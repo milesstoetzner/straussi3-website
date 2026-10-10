@@ -163,4 +163,6 @@ Der Link zu unserem Instagram-Profil in der Navigation und im Fußbereich ist ei
 
 Diese Website enthält Links zu anderen Websites, insbesondere zum Studierendenwerk Stuttgart, zu Selfnet e.V., zu unserer Untermietenseite (untermiete.straussi3.de) und zum Quellcode dieser Website auf GitHub. Beim Anklicken eines Links verlassen Sie diese Website; für die Datenverarbeitung auf den verlinkten Seiten sind deren Betreiber verantwortlich. Bitte beachten Sie die dortigen Datenschutzerklärungen.
 
-Quelle: https://www.e-recht24.de
+## 7. Quelle
+
+Diese Datenschutzerklärung wurde mit dem Datenschutz-Generator von eRecht24 (https://www.e-recht24.de) erstellt und für diese Website angepasst.
