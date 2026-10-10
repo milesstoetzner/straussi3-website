@@ -38,13 +38,13 @@ const en: Content = {
   },
   home: {
     title: 'Straußi 3',
-    findUs: 'You can find the Straußi 3 here',
-    address: 'Adress',
+    findUs: 'You Can Find the Straußi 3 Here',
+    address: 'Address',
     addressLines: ['Campus Vaihingen – Stuttgart', 'Straußäcker III', 'Allmandring 3c-i', '70569 Stuttgart'],
     about: 'Overview',
     aboutText:
       'In Straußi 3 there are both 2-person and 4-person flatshares, but the majority of the apartments are 4-person flatshares. Each apartment is equipped with PVC flooring and central heating, and the 4-person flatshares even have the luxury of two bathrooms per apartment! There is also a lockable bike room in each block and a laundry room with washing machine, dryer and clothesline.',
-    keyData: 'Key data',
+    keyData: 'Key Data',
     keyDataItems: [
       '7 blocks with 12 apartments each (two 2-person and ten 4-person shared apartments)',
       'the 2-person shared flats are also suitable for families',
@@ -52,9 +52,9 @@ const en: Content = {
       'room size: 12sqm',
       'Year of construction: 1997',
     ],
-    rent: 'Rental prices',
+    rent: 'Rental Prices',
     rentValue: '368–442 € (graduated rent)',
-    internet: 'Internet connection',
+    internet: 'Internet Connection',
     internetText: (
       <>
         Each room has a LAN connection, through which the student association Selfnet e.V. operates the internet. For
@@ -88,22 +88,22 @@ const en: Content = {
     phone: '+49 711 6876129',
     mobile: '+49 179 6947590',
     fax: '+49 711 6740605',
-    officeHours: 'Office hours',
+    officeHours: 'Office Hours',
     officeHoursItems: ['Monday-Thursday: 13:30-14:30', 'Friday: 8:00-9:00'],
-    findHim: 'You can find the janitor here',
+    findHim: 'You Can Find the Janitor Here',
     sheetTitle: 'Haushaltsartikel Hausmeister',
   },
   wore: {
     title: 'WoRe',
-    whatIs: 'What is the WoRe?',
+    whatIs: 'What Is the WoRe?',
     whatIsText:
       'The so called "Wohnheims-Referat" short WoRe can somehow be translated to "dormitory department". It\'s a group of students, also living in Straußi 3, who are voluntarily responsible to offer some special things for our dormitory community. Most dormitories got their own WoRe.',
-    whoAre: 'Who are our WoRe tutors?',
+    whoAre: 'Who Are Our WoRe Tutors?',
     tutors: [
       {
         role: 'Board Members',
         names: ['Larissa Angerer', 'Alexander Schäfer'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: 'vorstand.str3@gmail.com',
         whatsappNote: 'you can also find their phone numbers in the description of the WhatsApp group',
         question: 'What do the board members of the WoRe do?',
@@ -113,7 +113,7 @@ const en: Content = {
       {
         role: 'Events',
         names: ['Duru Atanay', 'Marjan Jedi'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: WORE_MAIL,
         whatsappNote: 'you can also find their phone numbers in the description of the WhatsApp group',
         question: 'What do the event tutors do?',
@@ -123,7 +123,7 @@ const en: Content = {
       {
         role: 'Laufrunde',
         names: ['Nick Stier', 'Madeleine Reichle'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: WORE_MAIL,
         whatsappNote: 'you can also find their phone numbers in the description of the WhatsApp group',
         question: 'What do the "Laufrunde" tutors do?',
@@ -133,7 +133,7 @@ const en: Content = {
       {
         role: 'Sublet',
         names: ['Michael Großkopf', 'Priyosmita Kar'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: WORE_MAIL,
         whatsappNote: 'you can also find their phone numbers in the description of the WhatsApp group',
         question: 'What do the sublet tutors do?',
@@ -155,7 +155,7 @@ const en: Content = {
       {
         role: 'IT',
         names: ['Maxim Beller'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: WORE_MAIL,
         whatsappNote: 'you can also find her phone number in the description of the WhatsApp group',
         question: 'What does the IT tutor do?',
@@ -186,7 +186,7 @@ const en: Content = {
       {
         role: 'Inventory',
         names: ['Aaron Mesfine'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: WORE_MAIL,
         whatsappNote: 'you can also find his phone number in the description of the WhatsApp group',
         question: 'What does the inventory tutor do?',
@@ -196,7 +196,7 @@ const en: Content = {
       {
         role: 'Garden',
         names: ['Maximilian Kemmer', 'Sandra Löffler'],
-        contactLabel: 'contact',
+        contactLabel: 'Contact',
         email: WORE_MAIL,
         whatsappNote: 'you can also find their phone numbers in the description of the WhatsApp group',
         question: 'What do the garden tutors do?',
@@ -215,8 +215,8 @@ const en: Content = {
         ),
       },
     ],
-    findUs: 'You can find the WoRe here',
-    lend: 'Things to lend',
+    findUs: 'You Can Find the WoRe Here',
+    lend: 'Things to Lend',
     sheetTitle: 'Inventory List - public',
   },
   wohnen: {
@@ -248,7 +248,7 @@ const en: Content = {
         . You can contact her if you want to extend your contract or something similar.
       </>
     ),
-    importantInfo: 'Important info',
+    importantInfo: 'Important Info',
     emergency: 'Emergency number of the Studierendenwerk for technical faults: +49711 955918-950',
     application: 'Application and "Laufrunde"',
     applicationLead: 'Looking for a room in Straußi 3? Good decision!',
