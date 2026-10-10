@@ -25,6 +25,7 @@ export interface Content {
   footer: {
     about: string
     subletPage: string
+    sourceCode: string
     impressum: string
     datenschutz: string
   }

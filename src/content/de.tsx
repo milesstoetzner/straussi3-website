@@ -17,6 +17,7 @@ const de: Content = {
   footer: {
     about: 'Über uns',
     subletPage: 'Untermietenseite',
+    sourceCode: 'Quellcode',
     impressum: 'Impressum',
     datenschutz: 'Datenschutzerklärung',
   },
