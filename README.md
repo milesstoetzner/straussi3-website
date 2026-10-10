@@ -3,7 +3,7 @@
 Website of the Straussi3, the student dormitory Straußäcker III in Stuttgart, in German and English.
 
 - Link: https://straussi3.de
-- Link (alternative): https://milesstoetzner.github.io/straussi3-website (redirects to straussi3.de)
+- Link (alternative): https://milesstoetzner.github.io/straussi3-website
 - Repo: https://github.com/milesstoetzner/straussi3-website
 - Subtenancy: https://untermiete.straussi3.de
 
