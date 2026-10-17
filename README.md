@@ -3,9 +3,16 @@
 Website of the Straussi3, the student dormitory Straußäcker III in Stuttgart, in German and English.
 
 - Link: https://straussi3.de
-- Link (alternative): https://milesstoetzner.github.io/straussi3-website
 - Repo: https://github.com/milesstoetzner/straussi3-website
 - Subtenancy: https://untermiete.straussi3.de
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Start page](docs/screenshots/index.png) | ![Start page, English](docs/screenshots/index-en.png) |
+| ![Janitor](docs/screenshots/hausmeister.png) | ![WoRe](docs/screenshots/wore.png) |
+| ![Living](docs/screenshots/wohnen.png) | ![Legal notice](docs/screenshots/impressum.png) |
 
 ## Development
 
@@ -36,9 +43,6 @@ The app is a single-page app, so the web server must serve `index.html` for all 
 
 ## Deployment
 
-Every push to `main` runs `.github/workflows/deploy.yml`, which lints, builds and publishes `dist/` to
-GitHub Pages. In the repository settings, set **Pages → Source** to **GitHub Actions** once.
-
-The site is built for `https://<user>.github.io/<repo>/`. To serve it from a custom domain
-(e.g. `straussi3.de`), add the domain to `public/CNAME`; the workflow then builds for `/` and
-GitHub Pages picks the domain up from that file.
+`npm run build` writes a static site to `dist/`. Serve that directory with any web server that returns
+`index.html` for unknown paths (SPA fallback). The site is built for `/` by default; set `BASE_PATH`
+(e.g. `BASE_PATH=/straussi3-website/`) when it is served from a sub-path.
