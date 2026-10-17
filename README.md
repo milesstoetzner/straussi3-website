@@ -12,7 +12,7 @@ Website of the Straussi3, the student dormitory Straußäcker III in Stuttgart, 
 |---|---|
 | ![Start page](docs/screenshots/index.png) | ![Start page, English](docs/screenshots/index-en.png) |
 | ![Janitor](docs/screenshots/hausmeister.png) | ![WoRe](docs/screenshots/wore.png) |
-| ![Living](docs/screenshots/wohnen.png) | ![Legal notice](docs/screenshots/impressum.png) |
+| ![Living](docs/screenshots/wohnen.png) | |
 
 ## Development
 

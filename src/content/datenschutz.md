@@ -54,10 +54,10 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Maxim Beller  
-Allmandring 3H  
+[Vorname Nachname]  
+[Straße Hausnummer]  
 70569 Stuttgart  
-Telefon: +49 1575 2986255  
+Telefon: [Telefonnummer]  
 E-Mail: wore.str3@gmail.com
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.

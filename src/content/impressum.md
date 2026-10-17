@@ -2,23 +2,23 @@
 
 Angaben gemäß § 5 DDG
 
-Maxim Beller  
-Allmandring 3H  
+[Vorname Nachname]  
+[Straße Hausnummer]  
 70569 Stuttgart
 
 ### Vertreten durch
 
-Maxim Beller
+[Vorname Nachname]
 
 ### Kontakt
 
-Telefon: +49 1575 2986255  
+Telefon: [Telefonnummer]  
 E-Mail: wore.str3@gmail.com
 
 ### Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
-Maxim Beller  
-Allmandring 3H  
+[Vorname Nachname]  
+[Straße Hausnummer]  
 70569 Stuttgart
 
 ### Hosting
